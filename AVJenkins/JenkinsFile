@@ -1,4 +1,3 @@
-#jenkins file creation
 pipeline
   agent any 
     stages {
