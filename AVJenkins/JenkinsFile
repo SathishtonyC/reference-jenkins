@@ -1,1 +1,10 @@
 #jenkins file creation
+pipeline
+  agent any 
+    stages {
+      stage('test') {
+        step {
+          echo " this is perfect "
+        }
+      }
+}
